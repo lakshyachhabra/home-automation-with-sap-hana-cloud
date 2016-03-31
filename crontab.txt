@@ -1,0 +1,7 @@
+Edit the file:
+
+sudo crontab -e
+Add line to file (here a python script):
+
+@reboot python3 /home/pi/Desktop/ledq.py &
+@reboot python3 /home/pi/Desktop/gas.py &
